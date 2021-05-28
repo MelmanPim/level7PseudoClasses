@@ -1,0 +1,65 @@
+/* opdracht 1 */
+
+section > a:first-of-type:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+section > a:nth-of-type(2):active {
+    color: red;
+    font-style: italic;
+}
+
+section > a:last-of-type:visited {
+    color: yellow;
+}
+
+
+form input:focus {
+    font-size: 20px;
+    color: green;
+}
+
+/* opdracht 2 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.mainNavigation {
+    background-color: rgba(0, 79, 143, 0.842);
+    margin-top: 0;
+    padding: 1em;
+}
+
+.mainNavigation ul {
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 1em;
+}
+
+ul:first-child {
+    padding-left: 0;
+}
+
+.currentPage {
+    background-color: rgb(135, 135, 196);
+}
+
+ul li:hover {
+    background-color: lightblue;
+}
+
+li > input:focus {
+    border: aqua;
+}
+
